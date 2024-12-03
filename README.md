@@ -215,7 +215,7 @@ To streamline testing:
 
 ## **Documentation**
 
-For detailed documentation on all API endpoints, request formats, and response structures, refer to the `excelon.pdf` file included in this repository.
+For detailed documentation on all API endpoints, request formats, and response structures, refer to the `exelon.pdf` file included in this repository.
 
 ---
 
