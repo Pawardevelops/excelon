@@ -49,6 +49,8 @@ export async function POST(req) {
 
 export async function GET(req) {
   try {
+
+    await connectDB();
     const url = new URL(req.url);
     
     const page = parseInt(url.searchParams.get("page")) || 1;
