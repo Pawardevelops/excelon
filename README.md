@@ -49,7 +49,7 @@ npm install
 ---
 
 ### **4. Configure Environment Variables**
-1. Create a `.env.local` file in the project root directory.
+1. Create a `.env` file in the project root directory.
 2. Add the following environment variable:
    ```
    MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>?retryWrites=true&w=majority
@@ -236,7 +236,7 @@ If you wish to deploy the project to production:
 ## **Troubleshooting**
 
 1. **MongoDB Connection Issues**:
-   - Verify the `MONGO_URI` in your `.env.local` file.
+   - Verify the `MONGO_URI` in your `.env` file.
    - Ensure MongoDB is running or your Atlas cluster is accessible.
 
 2. **Dependencies Missing**:
@@ -252,7 +252,3 @@ If you wish to deploy the project to production:
 Feel free to submit issues or pull requests for improvements to this project.
 
 ---
-
-## **License**
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
